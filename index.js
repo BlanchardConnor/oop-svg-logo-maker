@@ -61,7 +61,7 @@ function promptUser() {
             console.log("Text cannot be greater than 3 characters");
             promptUser();
         } else {
-            writeToFile('logo.svg', answers);
+            writeToFile('./examples/logo.svg', answers);
         }
     });
 }

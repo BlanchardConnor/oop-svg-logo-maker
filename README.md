@@ -32,10 +32,13 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 [Walkthrough Video](https://youtu.be/o9Ux76INpWg)
 
 ## Installation
-
+* Clone the github repo
+* Install VS Code
+* Install node.js
+* Run 'npm i' in the terminal to install the dependencies
 
 ## Usage
-
+To run this application, use the command line to navigate to the repo directory, and use 'npm i' to install the dependencies. The command line will ask you a series of questions. After these questions are answered, a 'logo.svg' file will be generated in the 'examples' folder of the repo. Right click on this file and select 'Open Preview'.
 
 ## Credits
 * Various student study groups at 2023 KU Spring/Summer Coding Bootcamp
