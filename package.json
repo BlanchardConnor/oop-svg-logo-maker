@@ -1,0 +1,10 @@
+{
+    "name": "oop-svg-logo-maker",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "inquirer": "^8.2.4",
+        "jest": "^29.6.1",
+        "node-fetch": "^2.6.7"
+    }
+}

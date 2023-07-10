@@ -1,3 +1,5 @@
+const inquirer = require("inquirer");
+
 const fs = require("fs");
 
 const { Circle, Triangle, Square } = require("./lib/shapes");
@@ -46,7 +48,7 @@ function promptUser() {
             name: 'shape',
             type: 'list',
             message: 'What shape would you like the logo to be?',
-            choices: ['Circle, Triangle, Square']
+            choices: ['Circle', 'Triangle', 'Square']
         },
         {
             name: 'shapeBackgroundColor',
